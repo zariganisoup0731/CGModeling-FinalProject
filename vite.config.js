@@ -1,4 +1,7 @@
 import { defineConfig } from 'vite'
 export default defineConfig({
-  base: '/CGModeling-FinalProject-Sample/', //サブディレクトリを記載する
+  base: '/CGModeling-FinalProject/', //サブディレクトリを記載する
+  build: {
+    outDir: 'docs'
+  }
 })
